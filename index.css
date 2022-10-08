@@ -2,207 +2,90 @@ body {
   margin: 0;
   line-height: normal;
 }
-.bas-div {
-  top: 66.66%;
-  bottom: 0;
-  background-color: rgba(175, 183, 198, 0.2);
-}
 .bas-div,
 .haut-div,
 .milieu-div {
   position: absolute;
-  height: 33.33%;
-  width: 100.05%;
-  right: -0.05%;
+  height: 57.73%;
+  width: 173.27%;
+  top: 115.44%;
+  right: -73.27%;
+  bottom: -73.17%;
   left: 0;
+  background-color: rgba(175, 183, 198, 0.2);
   display: none;
 }
-.haut-div {
+.haut-div,
+.milieu-div {
   top: 0;
-  bottom: 66.67%;
+  bottom: 42.27%;
   background-color: rgba(251, 37, 37, 0.2);
 }
 .milieu-div {
-  top: 33.32%;
-  bottom: 33.34%;
+  top: 57.71%;
+  bottom: -15.44%;
   background-color: rgba(83, 206, 40, 0.2);
 }
 .rectangle-div {
   position: absolute;
-  top: 2775px;
+  top: 1602.42px;
   left: 0;
   background-color: var(--color-indigo);
-  width: 5510px;
-  height: 375px;
+  width: 3181.74px;
+  height: 216.54px;
 }
 .vector-icon,
 .vector-icon1 {
   position: absolute;
-  top: 494px;
-  left: 2738px;
-  width: 145px;
-  height: 128px;
+  top: 162.84px;
+  left: 1492.13px;
+  width: 197.49px;
+  height: 251.77px;
 }
 .vector-icon1 {
-  top: 4642px;
-  left: 546px;
+  top: 2558.1px;
+  left: 226.36px;
 }
-.vector-icon2,
-.vector-icon3 {
-  position: absolute;
-  top: 300px;
-  left: 2816px;
-  width: 110px;
-  height: 188px;
-}
-.vector-icon3 {
-  top: 4448px;
-  left: 624px;
-}
-.vector-icon4,
-.vector-icon5 {
-  position: absolute;
-  top: 488px;
-  left: 2833px;
-  width: 93px;
-  height: 134px;
-}
-.vector-icon5 {
-  top: 4636px;
-  left: 641px;
-}
-.vector-icon6,
-.vector-icon7 {
-  position: absolute;
-  top: 282px;
-  left: 2703px;
-  width: 222px;
-  height: 206px;
-}
-.vector-icon7 {
-  top: 4430px;
-  left: 511px;
-}
-.vector-icon8,
-.vector-icon9 {
-  position: absolute;
-  top: 492px;
-  left: 2623px;
-  width: 147px;
-  height: 130px;
-}
-.vector-icon9 {
-  top: 4640px;
-  left: 431px;
-}
-.vector-input,
-.vector-input1 {
-  cursor: pointer;
-  position: absolute;
-  top: 635px;
-  left: 2851px;
-  background-color: #1aa537;
-  width: 75px;
-  height: 83px;
-}
-.vector-input1 {
-  top: 4783px;
-  left: 659px;
-  background-color: #31ae4c;
-}
-.vector-icon10 {
-  position: absolute;
-  top: 635px;
-  left: 2716px;
-  width: 126px;
-  height: 83px;
-}
-.vector-icon11 {
-  top: 4783px;
-  left: 524px;
-}
-.vector-icon11,
-.vector-icon12,
-.vector-icon13 {
-  position: absolute;
-  width: 126px;
-  height: 83px;
-}
-.vector-icon12 {
-  top: 635px;
-  left: 2584px;
-}
-.vector-icon13 {
-  top: 4783px;
-  left: 392px;
-}
-.vector-icon14,
-.vector-icon15 {
-  position: absolute;
-  top: 512px;
-  left: 2584px;
-  width: 73px;
-  height: 110px;
-}
-.vector-icon15 {
-  top: 4660px;
-  left: 392px;
-}
-.vector-icon16,
-.vector-icon17 {
-  position: absolute;
-  top: 282px;
-  left: 2584px;
-  width: 228px;
-  height: 206px;
-}
-.vector-icon17 {
-  top: 4430px;
-  left: 392px;
-}
-.vector-icon18,
-.vector-icon19 {
-  position: absolute;
-  top: 303px;
-  left: 2600px;
-  width: 138px;
-  height: 173px;
-}
-.vector-icon19 {
-  top: 4451px;
-  left: 408px;
-}
-.cerfa-div,
-.div {
+.cerfa-div {
   position: relative;
   letter-spacing: 0.01em;
   font-weight: 600;
   display: inline-block;
 }
-.div {
-  font-size: 85px;
+.button,
+.frame-div {
+  color: var(--color-indigo);
+}
+.button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: 49.08px;
+  letter-spacing: 0.01em;
   font-weight: 500;
+  font-family: var(--font-inter);
   text-align: center;
+  display: inline-block;
 }
 .frame-div {
   position: absolute;
-  top: 282px;
-  left: 363px;
+  top: 162.84px;
+  left: 209.61px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 200px;
-  color: var(--color-indigo);
+  font-size: 115.49px;
 }
 .n-dordre-de-reu {
-  top: 2842px;
-  left: 4129px;
+  top: 1639.9px;
+  left: 2384.29px;
   font-size: var(--font-size-lg);
   font-weight: 600;
 }
 .articles-200-et-238-bis-5-du-c,
-.div1,
+.button1,
 .dons-b,
 .n-dordre-de-reu {
   position: absolute;
@@ -210,11 +93,15 @@ body {
   color: var(--color-white);
   display: inline-block;
 }
-.div1 {
-  top: 2963px;
-  left: 4325px;
+.button1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 1709.77px;
+  left: 2496.25px;
   font-size: var(--font-size-lg);
   font-weight: 600;
+  font-family: var(--font-inter);
   text-align: right;
 }
 .articles-200-et-238-bis-5-du-c,
@@ -222,14 +109,14 @@ body {
   text-align: center;
 }
 .dons-b {
-  top: 2866px;
-  left: 2546px;
+  top: 1653.76px;
+  left: 1469.19px;
   font-size: var(--font-size-lg);
 }
 .articles-200-et-238-bis-5-du-c {
-  top: 2995px;
-  left: 1969px;
-  font-size: 55px;
+  top: 1728.25px;
+  left: 1135.78px;
+  font-size: 31.76px;
   font-weight: 500;
 }
 .le-bnficiaire-reconnat {
@@ -245,69 +132,43 @@ body {
 }
 .le-bnficiaire-reconnat-avoi {
   position: absolute;
-  top: 5529px;
-  left: 383px;
+  top: 3191.72px;
+  left: 221.16px;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 4229px;
+  width: 2442.03px;
 }
 .le-document-cerfa-ci-dessous-e,
 .mode-de-versement {
   position: absolute;
+  top: 3460.81px;
+  left: 221.16px;
   letter-spacing: 0.01em;
   font-weight: 600;
   display: inline-block;
 }
-.mode-de-versement {
-  top: 5995px;
-  left: 383px;
-}
 .le-document-cerfa-ci-dessous-e {
-  top: 2649px;
-  left: 1687px;
-  font-size: 60px;
+  top: 1529.66px;
+  left: 971.94px;
+  font-size: 34.65px;
   color: var(--color-gray-100);
   text-align: center;
 }
-.logo-cerfasvg-2-1-icon {
+.vector-icon2,
+.vector-icon3 {
   position: absolute;
-  top: 2862px;
-  left: 325px;
-  width: 378px;
-  height: 201px;
-  overflow: hidden;
+  top: 1662.17px;
+  left: 199.78px;
+  width: 192.91px;
+  height: 95.68px;
 }
-.rectangle-div1,
-.rectangle-div2 {
-  position: absolute;
-  top: 3479px;
-  left: 392px;
-  border-radius: var(--br-md);
-  background-color: var(--color-indigo);
-  width: 810px;
-  height: 174px;
-}
-.rectangle-div2 {
-  left: 3262px;
-  width: 665px;
-}
-.bneficiaire,
-.donateur-b {
-  position: absolute;
-  top: 3506px;
-  font-size: var(--font-size-lg);
-  letter-spacing: 0.01em;
-  display: inline-block;
-  color: var(--color-white);
-}
-.bneficiaire {
-  left: 450px;
-  text-align: center;
-}
-.donateur-b {
-  left: 3320px;
+.vector-icon3 {
+  top: 2008.94px;
+  left: 226.36px;
+  width: 2041.28px;
+  height: 100.48px;
 }
 .rue-du-4-septembre {
   font-weight: 600;
@@ -317,81 +178,134 @@ body {
 }
 .keren-kayemeth-leisral-11-rue {
   position: absolute;
-  top: 3747px;
-  left: 392px;
+  top: 2163.7px;
+  left: 226.36px;
   letter-spacing: 0.01em;
-  line-height: 104px;
+  line-height: 60.05px;
   display: inline-block;
 }
 .france-span1 {
   font-weight: 600;
   font-family: var(--font-inter);
 }
-.dr-robert-zbili-prsident-du,
 .malkiel-vadna-11-passage-de {
   position: absolute;
+  top: 2163.7px;
+  left: 1883.64px;
   letter-spacing: 0.01em;
+  line-height: 60.05px;
   display: inline-block;
-}
-.malkiel-vadna-11-passage-de {
-  top: 3747px;
-  left: 3262px;
-  line-height: 104px;
-}
-.dr-robert-zbili-prsident-du {
-  top: 6982px;
-  left: 2722px;
-  font-weight: 500;
 }
 .malkiel-vadna-11-passage-de-f {
   position: absolute;
-  top: calc(50% - 2710.5px);
-  left: calc(50% - -631.5px);
+  top: calc(50% - 1566.46px);
+  left: calc(50% - -364.66px);
   font-size: var(--font-size-lg);
   letter-spacing: 0.01em;
-  line-height: 140px;
+  line-height: 80.84px;
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
 }
 .association-dintrt-gnral {
   position: absolute;
-  top: 4652px;
-  left: 831px;
-  font-size: 70px;
+  top: 2686.29px;
+  left: 479.86px;
+  font-size: 40.42px;
   letter-spacing: 0.01em;
-  line-height: 104px;
+  line-height: 60.05px;
   font-weight: 600;
   display: flex;
   align-items: flex-end;
-  width: 1730px;
-  height: 214px;
+  width: 998.99px;
+  height: 123.57px;
 }
-.rectangle-div3 {
+.rectangle-div1,
+.rectangle-div2 {
   position: absolute;
-  top: calc(50% - -1298.5px);
-  left: calc(50% - 2753.5px);
+  width: 3181.74px;
+}
+.rectangle-div1 {
+  top: calc(50% - -749.53px);
+  left: calc(50% - 1590.01px);
   background-color: #eceaea;
-  width: 5510px;
-  height: 5px;
+  height: 2.89px;
 }
-.rectangle-div4 {
-  position: absolute;
-  top: 2588px;
-  left: -1px;
-  border: 10px dashed var(--color-gray-100);
+.rectangle-div2 {
+  top: 1494.44px;
+  left: -0.58px;
+  border: 5.8px dashed var(--color-gray-100);
   box-sizing: border-box;
-  width: 5510px;
-  height: 10px;
+  height: 5.77px;
 }
 .numraire-div {
   position: absolute;
-  height: 97%;
-  width: 70.51%;
-  top: 3%;
+  height: 96.98%;
+  width: 70.48%;
+  top: 1.27%;
   right: 0;
+  bottom: 1.75%;
+  left: 29.52%;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-div3 {
+  position: absolute;
+  height: 100%;
+  width: 17.47%;
+  top: 0;
+  right: 82.53%;
   bottom: 0;
-  left: 29.49%;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 4px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.group-div {
+  position: relative;
+  width: 330.59px;
+  height: 57.74px;
+  flex-shrink: 0;
+}
+.chque-ou-virement {
+  position: absolute;
+  height: 96.98%;
+  width: 82.31%;
+  top: 1.27%;
+  right: 0;
+  bottom: 1.75%;
+  left: 17.69%;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-div4 {
+  position: absolute;
+  height: 100%;
+  width: 10.47%;
+  top: 0;
+  right: 89.53%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  border: 4px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.group-div1 {
+  position: relative;
+  width: 551.59px;
+  height: 57.74px;
+  flex-shrink: 0;
+}
+.carte-bancaire-div {
+  position: absolute;
+  height: 96.98%;
+  width: 77.39%;
+  top: 1.27%;
+  right: 0;
+  bottom: 1.75%;
+  left: 22.61%;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: inline-block;
@@ -399,94 +313,35 @@ body {
 .rectangle-div5 {
   position: absolute;
   height: 100%;
-  width: 17.45%;
+  width: 13.38%;
   top: 0;
-  right: 82.55%;
+  right: 86.62%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-sm);
-  border: 7px solid var(--color-gray-200);
-  box-sizing: border-box;
-}
-.group-div {
-  position: relative;
-  width: 573px;
-  height: 100px;
-  flex-shrink: 0;
-}
-.chque-ou-virement {
-  position: absolute;
-  height: 97%;
-  width: 82.32%;
-  top: 3%;
-  right: 0;
-  bottom: 0;
-  left: 17.68%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-div6 {
-  position: absolute;
-  height: 100%;
-  width: 10.46%;
-  top: 0;
-  right: 89.54%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 7px solid var(--color-gray-200);
-  box-sizing: border-box;
-}
-.group-div1 {
-  position: relative;
-  width: 956px;
-  height: 100px;
-  flex-shrink: 0;
-}
-.carte-bancaire-div {
-  position: absolute;
-  height: 97%;
-  width: 77.41%;
-  top: 3%;
-  right: 0;
-  bottom: 0;
-  left: 22.59%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-div7 {
-  position: absolute;
-  height: 100%;
-  width: 13.37%;
-  top: 0;
-  right: 86.63%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 7px solid var(--color-gray-200);
+  border-radius: var(--br-md);
+  border: 4px solid var(--color-gray-200);
   box-sizing: border-box;
 }
 .group-div2 {
   position: relative;
-  width: 748px;
-  height: 100px;
+  width: 431.59px;
+  height: 57.74px;
   flex-shrink: 0;
 }
 .autre-div {
   position: absolute;
-  height: 97%;
+  height: 96.98%;
   width: 55.76%;
-  top: 3%;
+  top: 1.27%;
   right: 0;
-  bottom: 0;
+  bottom: 1.75%;
   left: 44.24%;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: inline-block;
 }
-.rectangle-div8 {
+.rectangle-input {
+  cursor: pointer;
   position: absolute;
   height: 100%;
   width: 26.18%;
@@ -494,44 +349,42 @@ body {
   right: 73.82%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-sm);
-  border: 7px solid var(--color-gray-200);
+  border-radius: var(--br-md);
+  border: 4px solid var(--color-gray-200);
   box-sizing: border-box;
 }
 .group-div3 {
   position: relative;
-  width: 382px;
-  height: 100px;
+  width: 220.59px;
+  height: 57.74px;
   flex-shrink: 0;
 }
 .frame-div1 {
   position: absolute;
-  top: 6211px;
-  left: 383px;
+  top: 3586.54px;
+  left: 221.16px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 650px;
+  gap: 375.34px;
 }
 .sauf-dans-le-cadre-du-compte-d {
   position: absolute;
-  top: 6329px;
-  left: 552px;
-  font-size: 50px;
+  top: 3654.67px;
+  left: 318.75px;
+  font-size: 28.87px;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 591px;
+  width: 341.27px;
 }
 .abonnement-au-journal-adama,
-.div2 {
+.div {
   position: relative;
   letter-spacing: 0.01em;
   font-weight: 500;
-}
-.div2 {
   display: inline-block;
 }
 .abonnement-au-journal-adama {
@@ -539,48 +392,48 @@ body {
 }
 .frame-div2 {
   position: absolute;
-  top: 282px;
-  right: 378px;
+  top: 162.84px;
+  right: 218.28px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 11.55px;
   text-align: right;
   color: var(--color-gray-100);
 }
-.signature-icon {
+.vector-icon4 {
   position: absolute;
-  top: calc(50% - -3009px);
-  left: calc(50% - 1045px);
-  width: 1107px;
-  height: 696.15px;
+  top: 3987.57px;
+  left: 986.57px;
+  width: 1208.22px;
+  height: 397.95px;
 }
-.rectangle-div9 {
-  top: -23.33px;
-  left: 23.33px;
+.rectangle-div6 {
+  top: -13.47px;
+  left: 13.47px;
   background-color: var(--color-gray-200);
-  width: 5px;
+  width: 2.89px;
   transform: rotate(-45deg);
 }
 .group-div4,
-.rectangle-div11,
-.rectangle-div9 {
+.rectangle-div6,
+.rectangle-div8 {
   position: absolute;
-  height: 71px;
+  height: 41px;
   transform-origin: 0 0;
 }
-.rectangle-div11 {
-  top: 26.87px;
-  left: 26.87px;
+.rectangle-div8 {
+  top: 15.52px;
+  left: 15.52px;
   background-color: var(--color-gray-200);
-  width: 5px;
+  width: 2.89px;
   transform: rotate(-135deg);
 }
 .group-div4 {
-  top: 6261.21px;
-  left: 383px;
-  width: 71px;
+  top: 3615.53px;
+  left: 221.16px;
+  width: 41px;
   transform: rotate(-45deg);
 }
 .blank-line-span {
@@ -592,22 +445,22 @@ body {
   color: #7b8a71;
 }
 .chere-malkiel-vadna-le-kkl,
-.div3 {
+.div1 {
   position: absolute;
   letter-spacing: 0.01em;
 }
 .chere-malkiel-vadna-le-kkl {
-  top: 761px;
-  left: 363px;
+  top: 438.65px;
+  left: 209.61px;
   display: flex;
   align-items: center;
-  width: 2131px;
+  width: 1230.54px;
 }
-.div3 {
-  top: calc(50% - 1253.5px);
-  left: calc(50% - 2593.5px);
+.div1 {
+  top: calc(50% - 724.12px);
+  left: calc(50% - 1497.61px);
   font-size: var(--font-size-lg);
-  line-height: 104px;
+  line-height: 60.05px;
   font-family: var(--font-sf-pro);
   display: inline-block;
   transform: rotate(-90deg);
@@ -617,7 +470,7 @@ body {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 7793px;
+  height: 4277.74px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
