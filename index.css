@@ -12,19 +12,19 @@ body {
   right: -266.75%;
   bottom: -266.54%;
   left: 0;
-  background-color: rgba(175, 183, 198, 0.2);
+  background-color: var(--color-gray-500);
   display: none;
 }
 .haut-div,
 .milieu-div {
   top: 0;
   bottom: -22.18%;
-  background-color: rgba(251, 37, 37, 0.2);
+  background-color: var(--color-red);
 }
 .milieu-div {
   top: 122.15%;
   bottom: -144.34%;
-  background-color: rgba(83, 206, 40, 0.2);
+  background-color: var(--color-green);
 }
 .rectangle-div {
   position: absolute;
@@ -81,7 +81,7 @@ body {
 .n-dordre-de-reu {
   top: 774.76px;
   left: 1126.45px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: 600;
 }
 .articles-200-et-238-bis-5-du-c,
@@ -99,7 +99,7 @@ body {
   background-color: transparent;
   top: 807.77px;
   left: 1178.34px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: 600;
   font-family: var(--font-inter);
   text-align: right;
@@ -111,7 +111,7 @@ body {
 .dons-b {
   top: 781.31px;
   left: 694.11px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
 }
 .articles-200-et-238-bis-5-du-c {
   top: 815.5px;
@@ -153,7 +153,7 @@ body {
   top: 721.68px;
   left: 459.19px;
   font-size: 16.37px;
-  color: var(--color-gray-100);
+  color: var(--color-gray-200);
   text-align: center;
 }
 .vector-icon2,
@@ -200,7 +200,7 @@ body {
   position: absolute;
   top: calc(50% - 740.07px);
   left: calc(50% - -172.28px);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   letter-spacing: 0.01em;
   line-height: 38.19px;
   text-transform: uppercase;
@@ -224,7 +224,7 @@ body {
   position: absolute;
   top: calc(50% - -354.11px);
   left: calc(50% - 751.19px);
-  background-color: #eceaea;
+  background-color: var(--color-gray-100);
   width: 1503.2px;
   height: 1.36px;
 }
@@ -232,7 +232,7 @@ body {
   position: absolute;
   top: 706.04px;
   left: -0.27px;
-  border: 2.7px dashed var(--color-gray-100);
+  border: 2.7px dashed var(--color-gray-200);
   box-sizing: border-box;
   width: 1503.2px;
   height: 2.73px;
@@ -257,8 +257,8 @@ body {
   right: 82.64%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-md);
-  border: 1.9px solid var(--color-gray-200);
+  border-radius: var(--br-sm);
+  border: 1.9px solid var(--color-gray-400);
   box-sizing: border-box;
 }
 .group-div {
@@ -287,8 +287,8 @@ body {
   right: 89.55%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-md);
-  border: 1.9px solid var(--color-gray-200);
+  border-radius: var(--br-sm);
+  border: 1.9px solid var(--color-gray-400);
   box-sizing: border-box;
 }
 .group-div1 {
@@ -317,8 +317,8 @@ body {
   right: 86.63%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-md);
-  border: 1.9px solid var(--color-gray-200);
+  border-radius: var(--br-sm);
+  border: 1.9px solid var(--color-gray-400);
   box-sizing: border-box;
 }
 .group-div2 {
@@ -348,8 +348,8 @@ body {
   right: 74.04%;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-md);
-  border: 1.9px solid var(--color-gray-200);
+  border-radius: var(--br-sm);
+  border: 1.9px solid var(--color-gray-400);
   box-sizing: border-box;
 }
 .group-div3 {
@@ -399,7 +399,7 @@ body {
   justify-content: flex-start;
   gap: 5.46px;
   text-align: right;
-  color: var(--color-gray-100);
+  color: var(--color-gray-200);
 }
 .vector-icon4 {
   position: absolute;
@@ -411,7 +411,7 @@ body {
 .rectangle-div6 {
   top: -6.37px;
   left: 6.37px;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-400);
   width: 1.36px;
   transform: rotate(-45deg);
 }
@@ -425,7 +425,7 @@ body {
 .rectangle-div8 {
   top: 7.33px;
   left: 7.33px;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-400);
   width: 1.36px;
   transform: rotate(-135deg);
 }
@@ -441,7 +441,7 @@ body {
 .blank-line-p3 {
   margin-block-start: 0;
   margin-block-end: 0;
-  color: #7b8a71;
+  color: var(--color-gray-300);
 }
 .chere-malkiel-vadna-le-kkl,
 .div1 {
@@ -458,7 +458,7 @@ body {
 .div1 {
   top: calc(50% - 278.22px);
   left: calc(50% - 694.27px);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   line-height: 28.37px;
   font-family: var(--font-sf-pro);
   display: inline-block;
@@ -473,6 +473,6 @@ body {
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
-  color: var(--color-gray-200);
+  color: var(--color-gray-400);
   font-family: var(--font-inter);
 }
