@@ -4,8 +4,8 @@
   --font-inter: Inter;
 
   /* font sizes */
-  --font-size-base: 80px;
-  --font-size-lg: 100px;
+  --font-size-base: 21.83px;
+  --font-size-lg: 27.28px;
 
   /* Colors */
   --color-white: #fff;
@@ -14,6 +14,5 @@
   --color-indigo: #0a7aff;
 
   /* border radiuses */
-  --br-sm: 10px;
-  --br-md: 20px;
+  --br-md: 2.73px;
 }
