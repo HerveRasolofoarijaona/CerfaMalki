@@ -28,7 +28,7 @@ body {
 }
 .rectangle-div {
   position: absolute;
-  top: 757.06px;
+  top: 34%;
   left: 0;
   background-color: var(--color-indigo);
   width: 100%;
@@ -37,14 +37,15 @@ body {
 .vector-icon,
 .vector-icon1 {
   position: absolute;
-  top: 76.93px;
+/*  top: 76.93px;*/
   left:50%;
   width: 93.3px;
   height: 118.95px;
 }
 .vector-icon1 {
-  top: 1208.56px;
+/*  top: 1208.56px;*/
   left: 106.94px;
+    top: 1079.6px;
 }
 .cerfa-div {
   position: relative;
@@ -67,10 +68,12 @@ body {
   font-family: var(--font-inter);
   text-align: center;
   display: inline-block;
+  margin-top: 1%;
+
 }
 .frame-div {
   position: absolute;
-  top: 76.93px;
+/*  top: 76.93px;*/
   left: 99.03px;
   display: flex;
   flex-direction: column;
@@ -79,8 +82,8 @@ body {
   font-size: 54.56px;
 }
 .n-dordre-de-reu {
-  top: 774.76px;
-  left: 1126.45px;
+  top:35%;
+/*  left: 1126.45px;*/
   font-size: var(--font-size-xl);
   font-weight: 600;
 }
@@ -97,8 +100,8 @@ body {
   border: 0;
   padding: 0;
   background-color: transparent;
-  top: 807.77px;
-  left: 1178.34px;
+  top: 35%;
+/*  left: 1178.34px;*/
   font-size: var(--font-size-xl);
   font-weight: 600;
   font-family: var(--font-inter);
@@ -109,13 +112,14 @@ body {
   text-align: center;
 }
 .dons-b {
-  top: 781.31px;
-  left: 694.11px;
-  font-size: var(--font-size-xl);
+  top: 35%;
+/*  left: 694.11px;*/
+    font-size: var(--font-size-xl);
+    margin-left: 8%;
 }
 .articles-200-et-238-bis-5-du-c {
-  top: 815.5px;
-  left: 535.6px;
+  top: 37%;
+/*  left: 535.6px;*/
   font-size: 15px;
   font-weight: 500;
 }
@@ -132,7 +136,7 @@ body {
 }
 .le-bnficiaire-reconnat-avoi {
   position: absolute;
-  top: 1507.91px;
+  top: 1311.9px;
   left: 104.49px;
   letter-spacing: 0.01em;
   font-weight: 500;
@@ -143,15 +147,21 @@ body {
 .le-document-cerfa-ci-dessous-e,
 .mode-de-versement {
   position: absolute;
+/*
   top: 1635.04px;
   left: 104.49px;
+*/
   letter-spacing: 0.01em;
   font-weight: 600;
   display: inline-block;
 }
 .le-document-cerfa-ci-dessous-e {
+/*
   top: 721.68px;
   left: 459.19px;
+*/
+  top: 32%;
+  left: 35%;
   font-size: 16.37px;
   color: var(--color-gray-200);
   text-align: center;
@@ -159,7 +169,7 @@ body {
 .vector-icon2,
 .vector-icon3 {
   position: absolute;
-  top: 785.28px;
+  top: 35.5%;
   left: 94.38px;
   width: 91.14px;
   height: 45.2px;
@@ -178,7 +188,7 @@ body {
 }
 .keren-kayemeth-leisral-11-rue {
   position: absolute;
-  top: 1022.23px;
+  top: 933.2px;
   left: 106.94px;
   letter-spacing: 0.01em;
   line-height: 28.37px;
@@ -190,8 +200,8 @@ body {
 }
 .malkiel-vadna-11-passage-de {
   position: absolute;
-  top: 1022.23px;
-  left: 889.92px;
+  top: 933.2px;
+  left: 65%;
   letter-spacing: 0.01em;
   line-height: 28.37px;
   display: inline-block;
@@ -209,7 +219,7 @@ body {
 }
 .association-dintrt-gnral {
   position: absolute;
-  top: 1269.13px;
+  top: 1143.1px;
   left: 226.71px;
   font-size: 19.1px;
   letter-spacing: 0.01em;
@@ -222,14 +232,14 @@ body {
 }
 .rectangle-div1 {
   position: absolute;
-  top: calc(50% - -354.11px);
+  top: calc(45% - -354.11px);
   background-color: var(--color-gray-100);
   width: 100%;
   height: 1.36px;
 }
 .rectangle-div2 {
   position: absolute;
-  top: 40%;
+  top: 31%;
   left: -0.27px;
   border: 2.7px dashed var(--color-gray-200);
   box-sizing: border-box;
@@ -359,7 +369,7 @@ body {
 }
 .frame-div1 {
   position: absolute;
-  top: 1694.44px;
+  top: 1500.4px;
   left: 104.49px;
   display: flex;
   flex-direction: row;
@@ -390,7 +400,7 @@ body {
 }
 .frame-div2 {
   position: absolute;
-  top: 76.93px;
+/*  top: 76.93px;*/
   right: 103.12px;
   display: flex;
   flex-direction: column;
@@ -448,15 +458,14 @@ body {
   letter-spacing: 0.01em;
 }
 .chere-malkiel-vadna-le-kkl {
-  top: 15%;
   left: 99.03px;
   display: flex;
   align-items: center;
-  width: 581.36px;
+  width: 709.4px;
 }
 .div1 {
-  top: calc(50% - 278.22px);
-  left: calc(50% - 694.27px);
+  top: 32%;
+  left: 5%;
   font-size: var(--font-size-xl);
   line-height: 28.37px;
   font-family: var(--font-sf-pro);

@@ -1,0 +1,70 @@
+.Haut_Logo{
+  margin-top: 25.93px;
+}
+
+.Milieu-contenuCertificat{
+  margin-top: 10%;
+}
+
+.bneficiaire, .donateur-b {
+  position: absolute;
+/*  top: 946.16px;*/
+  font-size: var(--font-size-2xl);
+  letter-spacing: 0.01em;
+  display: inline-block;
+  color: var(--color-white);
+  margin-top: 1.5%;
+}
+
+.bneficiaire {
+  left: 119.47px;
+  text-align: center;
+}
+
+.donateur-b {
+  left: 65.5%;
+}
+
+.rectangle-div10, .rectangle-div11 {
+  position: absolute;
+/*  top: 939.4px;*/
+  left: 105.85px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-indigo);
+  width: 218.72px;
+  height: 46.98px;
+    margin-top: 1%;
+}
+
+.rectangle-div11 {
+  left: 65%;
+  width: 179.56px;
+/*    background-color: aqua;*/
+}
+.benefs-e{
+    margin-top: 42%;
+}
+
+.vector-icon7 {
+  position: absolute;
+  top: calc(40% - -812.49px);
+  left: calc(50% - 282.17px);
+  width: 298.91px;
+  height: 187.97px;
+}
+.dr-robert-zbili-prsident-du {
+  position: absolute;
+  top: 1675.3px;
+  left: 1024px;
+  display: inline-block;
+  font-weight: 500;
+}
+.le-bnficiaire-reconnat1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.date-de-paiement1 {
+  margin: 0;
+}
+
+
