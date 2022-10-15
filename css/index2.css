@@ -27,8 +27,8 @@ body {
   background-color: var(--color-green);
 }
 .rectangle-div {
-  position: absolute;
-  top: 34%;
+  /* position: absolute; */
+  /* top: 34%; */
   left: 0;
   background-color: var(--color-indigo);
   width: 100%;
@@ -91,34 +91,37 @@ body {
 .button1,
 .dons-b,
 .n-dordre-de-reu {
-  position: absolute;
+  /* position: absolute; */
   letter-spacing: 0.01em;
   color: var(--color-white);
-  display: inline-block;
+  /* display: inline-block; */
+  /* background-color:green; */
+  /* margin-top:15%; */
 }
 .button1 {
   border: 0;
   padding: 0;
-  background-color: transparent;
-  top: 35%;
+  /* background-color: transparent; */
+  /* top: 35%; */
 /*  left: 1178.34px;*/
   font-size: var(--font-size-xl);
   font-weight: 600;
   font-family: var(--font-inter);
-  text-align: right;
+  /* text-align: right; */
 }
 .articles-200-et-238-bis-5-du-c,
 .dons-b {
   text-align: center;
 }
 .dons-b {
-  top: 35%;
+  /* top: 35%; */
 /*  left: 694.11px;*/
     font-size: var(--font-size-xl);
     margin-left: 8%;
+    text-align: center;
 }
 .articles-200-et-238-bis-5-du-c {
-  top: 37%;
+  /* top: 37%; */
 /*  left: 535.6px;*/
   font-size: 15px;
   font-weight: 500;
@@ -136,7 +139,7 @@ body {
 }
 .le-bnficiaire-reconnat-avoi {
   position: absolute;
-  top: 1412.9px;
+  /* top: 1412.9px; */
   left: 104.49px;
   letter-spacing: 0.01em;
   font-weight: 500;
@@ -160,19 +163,21 @@ body {
   top: 721.68px;
   left: 459.19px;
 */
-  top: 32%;
   left: 35%;
   font-size: 16.37px;
   color: var(--color-gray-200);
   text-align: center;
+  margin-top:1%;
 }
 .vector-icon2,
 .vector-icon3 {
   position: absolute;
-  top: 35.5%;
+  /* top: 35.5%; */
   left: 94.38px;
   width: 91.14px;
   height: 45.2px;
+  /* background-color: red; */
+  margin-top:1%;
 }
 .vector-icon3 {
   top: 949.12px;
@@ -188,8 +193,8 @@ body {
 }
 .keren-kayemeth-leisral-11-rue {
   position: absolute;
-  top: 933.2px;
-  left: 106.94px;
+  /* top: 933.2px; */
+  left: 5%;
   letter-spacing: 0.01em;
   line-height: 28.37px;
   display: inline-block;
@@ -200,7 +205,7 @@ body {
 }
 .malkiel-vadna-11-passage-de {
   position: absolute;
-  top: 933.2px;
+  /* top: 933.2px; */
   left: 65%;
   letter-spacing: 0.01em;
   line-height: 28.37px;
@@ -208,7 +213,7 @@ body {
 }
 .malkiel-vadna-11-passage-de-f {
   position: absolute;
-  top: 15%;
+  /* top: 15%; */
   left: 65%;
   font-size: var(--font-size-xl);
   letter-spacing: 0.01em;
@@ -239,7 +244,7 @@ body {
 }
 .rectangle-div2 {
   position: absolute;
-  top: 31%;
+  /* top: 31%; */
   left: -0.27px;
   border: 2.7px dashed var(--color-gray-200);
   box-sizing: border-box;
@@ -369,13 +374,14 @@ body {
 }
 .frame-div1 {
   position: absolute;
-  top: 1597.4px;
+  /* top: 1597.4px; */
   left: 104.49px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 177.33px;
+  margin-top:35%;
 }
 .sauf-dans-le-cadre-du-compte-d {
   position: absolute;
@@ -464,7 +470,7 @@ body {
   width: 709.4px;
 }
 .div1 {
-  top: 32%;
+  /* top: 32%; */
   left: 5%;
   font-size: var(--font-size-xl);
   line-height: 28.37px;
@@ -472,12 +478,13 @@ body {
   display: inline-block;
   transform: rotate(-90deg);
   transform-origin: 0 0;
+  margin-top:1%;
 }
 .cerfa-malki-div {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 2021px;
+  height: 2656px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);

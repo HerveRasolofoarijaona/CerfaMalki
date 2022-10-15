@@ -3,7 +3,7 @@
 }
 
 .Milieu-contenuCertificat{
-  margin-top: 10%;
+  margin-top: 13%;
 }
 
 .bneficiaire, .donateur-b {
@@ -13,17 +13,10 @@
   letter-spacing: 0.01em;
   display: inline-block;
   color: var(--color-white);
-  margin-top: 1.5%;
+  margin-top: 4.5%;
+  left: 6%;
 }
 
-.bneficiaire {
-  left: 119.47px;
-  text-align: center;
-}
-
-.donateur-b {
-  left: 65.5%;
-}
 
 .rectangle-div10, .rectangle-div11 {
   position: absolute;
@@ -42,19 +35,19 @@
 /*    background-color: aqua;*/
 }
 .benefs-e{
-    margin-top: 42%;
+    margin-top: 6%;
 }
 
 .vector-icon7 {
   position: absolute;
-  top: calc(50% - -812.49px);
-  left: calc(50% - 282.17px);
+  top: calc(60% - -812.49px);
+  left: calc(42% - 282.17px);
   width: 298.91px;
   height: 187.97px;
 }
 .dr-robert-zbili-prsident-du {
   position: absolute;
-  top:  1849.3px;
+  top:93%;
   left: 1024px;
   display: inline-block;
   font-weight: 500;
@@ -66,5 +59,31 @@
 .date-de-paiement1 {
   margin: 0;
 }
+.centre{
+  margin-left: 35%; 
+  width:500px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  margin-top: 1%;
 
+}
+.droite{
+  margin-left: 83%;
+  margin-top: 1%;
+  /* background-color: aquamarine;  */
+  position: absolute;
+}
 
+.info-clients{
+  margin-top: 5%;
+}
+
+.info-associations{
+  margin-top: 27%;
+}
+.autre{
+  margin-top:13%
+}
+.autre2{
+  margin-top:28%;
+}
