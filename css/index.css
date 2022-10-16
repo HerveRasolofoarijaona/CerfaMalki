@@ -40,15 +40,15 @@
 
 .vector-icon7 {
   position: absolute;
-  top: calc(60% - -812.49px);
+  top: calc(55% - -812.49px);
   left: calc(42% - 282.17px);
   width: 298.91px;
   height: 187.97px;
 }
 .dr-robert-zbili-prsident-du {
   position: absolute;
-  top:93%;
-  left: 1024px;
+  top:82%;
+  left: 863px;
   display: inline-block;
   font-weight: 500;
 }
@@ -79,11 +79,11 @@
 }
 
 .info-associations{
-  margin-top: 27%;
+  margin-top: 18%;
 }
 .autre{
   margin-top:13%
 }
 .autre2{
-  margin-top:28%;
+  margin-top:32%;
 }
