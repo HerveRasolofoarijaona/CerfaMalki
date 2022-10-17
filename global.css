@@ -4,6 +4,9 @@
   --font-inter: Inter;
 
   /* font sizes */
+  --font-size-2xs: 8px;
+  --font-size-xs: 10px;
+  --font-size-sm: 10.99px;
   --font-size-base: 21.83px;
   --font-size-lg: 21.6px;
   --font-size-xl: 27.28px;
