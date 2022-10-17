@@ -2,129 +2,38 @@ body {
   margin: 0;
   line-height: normal;
 }
-.bas-div,
-.haut-div,
-.milieu-div {
+.autre-div,
+.carte-bancaire-div,
+.chque-ou-virement,
+.numraire-div {
   position: absolute;
-  height: 122.18%;
-  width: 366.75%;
-  top: 244.35%;
-  right: -266.75%;
-  bottom: -266.54%;
-  left: 0;
-  background-color: var(--color-gray-500);
-  display: none;
-}
-.haut-div,
-.milieu-div {
-  top: 0;
-  bottom: -22.18%;
-  background-color: var(--color-red);
-}
-.milieu-div {
-  top: 122.15%;
-  bottom: -144.34%;
-  background-color: var(--color-green);
-}
-.rectangle-div {
-  /* position: absolute; */
-  /* top: 34%; */
-  left: 0;
-  background-color: var(--color-indigo);
-  width: 100%;
-  height: 102.3px;
-}
-.vector-icon,
-.vector-icon1 {
-  position: absolute;
-/*  top: 76.93px;*/
-  left:50%;
-  width: 93.3px;
-  height: 118.95px;
-}
-.vector-icon1 {
-/*  top: 1208.56px;*/
-  left: 106.94px;
-    top: 1079.6px;
-}
-.cerfa-div {
-  position: relative;
-  letter-spacing: 0.01em;
-  font-weight: 600;
-  display: inline-block;
-}
-.button,
-.frame-div {
-  color: var(--color-indigo);
-}
-.button {
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  font-size: 23.19px;
+  height: 3.85%;
+  width: 6.89%;
+  top: 42.64%;
+  right: 82.7%;
+  bottom: 53.51%;
+  left: 10.41%;
   letter-spacing: 0.01em;
   font-weight: 500;
-  font-family: var(--font-inter);
-  text-align: center;
   display: inline-block;
-  margin-top: 1%;
-
 }
-.frame-div {
-  position: absolute;
-/*  top: 76.93px;*/
-  left: 99.03px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: 54.56px;
+.autre-div,
+.carte-bancaire-div,
+.chque-ou-virement {
+  width: 13.27%;
+  right: 54.14%;
+  left: 32.59%;
 }
-.n-dordre-de-reu {
-  top:35%;
-/*  left: 1126.45px;*/
-  font-size: var(--font-size-xl);
-  font-weight: 600;
+.autre-div,
+.carte-bancaire-div {
+  width: 9.74%;
+  right: 29.11%;
+  left: 61.14%;
 }
-.articles-200-et-238-bis-5-du-c,
-.button1,
-.dons-b,
-.n-dordre-de-reu {
-  /* position: absolute; */
-  letter-spacing: 0.01em;
-  color: var(--color-white);
-  /* display: inline-block; */
-  /* background-color:green; */
-  /* margin-top:15%; */
-}
-.button1 {
-  border: 0;
-  padding: 0;
-  /* background-color: transparent; */
-  /* top: 35%; */
-/*  left: 1178.34px;*/
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  font-family: var(--font-inter);
-  /* text-align: right; */
-}
-.articles-200-et-238-bis-5-du-c,
-.dons-b {
-  text-align: center;
-}
-.dons-b {
-  /* top: 35%; */
-/*  left: 694.11px;*/
-    font-size: var(--font-size-xl);
-    margin-left: 8%;
-    text-align: center;
-}
-.articles-200-et-238-bis-5-du-c {
-  /* top: 37%; */
-/*  left: 535.6px;*/
-  font-size: 15px;
-  font-weight: 500;
+.autre-div {
+  width: 3.7%;
+  right: 9.29%;
+  left: 87.01%;
 }
 .le-bnficiaire-reconnat {
   margin-block-start: 0;
@@ -134,56 +43,159 @@ body {
   margin: 0;
 }
 .le-bnficiaire-reconnat-container {
-  /* line-break: anywhere; */
+  line-break: anywhere;
   width: 100%;
 }
 .le-bnficiaire-reconnat-avoi {
   position: absolute;
-  /* top: 1412.9px; */
-  left: 104.49px;
+  height: 7.7%;
+  width: 62.15%;
+  top: 14.14%;
+  right: 30.63%;
+  bottom: 78.16%;
+  left: 7.22%;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 1153.73px;
 }
-.le-document-cerfa-ci-dessous-e,
+.dr-robert-zbili-prsident-du,
 .mode-de-versement {
   position: absolute;
-/*
-  top: 1635.04px;
-  left: 104.49px;
-*/
+  height: 3.85%;
+  width: 13.94%;
+  top: 33.39%;
+  right: 79%;
+  bottom: 62.76%;
+  left: 7.05%;
   letter-spacing: 0.01em;
   font-weight: 600;
   display: inline-block;
 }
-.le-document-cerfa-ci-dessous-e {
-/*
-  top: 721.68px;
-  left: 459.19px;
-*/
-  left: 35%;
-  font-size: 16.37px;
-  color: var(--color-gray-200);
-  text-align: center;
-  margin-top:1%;
+.dr-robert-zbili-prsident-du {
+  height: 7.7%;
+  width: 18.14%;
+  top: 74.6%;
+  right: 32.64%;
+  bottom: 17.7%;
+  left: 49.22%;
+  font-weight: 500;
 }
+.signature-icon,
+.vector-icon,
+.vector-icon1,
 .vector-icon2,
-.vector-icon3 {
+.vector-icon3,
+.vector-icon4 {
   position: absolute;
-  /* top: 35.5%; */
-  left: 94.38px;
-  width: 91.14px;
-  height: 45.2px;
-  /* background-color: red; */
-  margin-top:1%;
+  height: 4.26%;
+  width: 1.86%;
+  top: 42.23%;
+  right: 91.21%;
+  bottom: 53.51%;
+  left: 6.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
-.vector-icon3 {
-  top: 949.12px;
-  left: 106.94px;
-  width: 964.39px;
-  height: 47.47px;
+.signature-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  right: 69.02%;
+  left: 29.13%;
+}
+.signature-icon,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  right: 39.87%;
+  left: 58.27%;
+}
+.signature-icon,
+.vector-icon3,
+.vector-icon4 {
+  right: 14.5%;
+  left: 83.65%;
+}
+.signature-icon,
+.vector-icon4 {
+  height: 29.06%;
+  width: 20.13%;
+  top: 71.13%;
+  right: 48.88%;
+  bottom: -0.19%;
+  left: 30.99%;
+}
+.vector-icon4 {
+  height: 0.21%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 99.79%;
+  left: 0;
+}
+.enbas-div {
+  position: absolute;
+  height: 30.84%;
+  width: 100.05%;
+  top: 66.66%;
+  right: -0.05%;
+  bottom: 2.5%;
+  left: 0;
+}
+.association-dintrt-gnral {
+  position: absolute;
+  height: 34.04%;
+  width: 78.03%;
+  top: 61.7%;
+  right: 0;
+  bottom: 4.26%;
+  left: 21.97%;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+}
+.logo2-icon {
+  position: absolute;
+  height: 100%;
+  width: 17.04%;
+  top: 0;
+  right: 82.96%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo-div {
+  position: absolute;
+  height: 5.58%;
+  width: 37.48%;
+  top: 56.89%;
+  right: 55.46%;
+  bottom: 37.53%;
+  left: 7.06%;
+  font-size: 7px;
+}
+.vector-icon5,
+.vector-icon6 {
+  position: absolute;
+  height: 30.76%;
+  width: 21.79%;
+  top: 0;
+  right: 78.21%;
+  bottom: 69.24%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon6 {
+  width: 17.89%;
+  right: 4.91%;
+  left: 77.2%;
 }
 .rue-du-4-septembre {
   font-weight: 600;
@@ -193,262 +205,192 @@ body {
 }
 .keren-kayemeth-leisral-11-rue {
   position: absolute;
-  /* top: 933.2px; */
-  left: 5%;
+  height: 49.09%;
+  width: 46.31%;
+  top: 49.27%;
+  right: 53.28%;
+  bottom: 1.64%;
+  left: 0.41%;
   letter-spacing: 0.01em;
-  line-height: 28.37px;
   display: inline-block;
 }
 .france-span1 {
   font-weight: 600;
   font-family: var(--font-inter);
 }
+.bneficiaire,
+.donateur-b,
 .malkiel-vadna-11-passage-de {
   position: absolute;
-  /* top: 933.2px; */
-  left: 65%;
   letter-spacing: 0.01em;
-  line-height: 28.37px;
   display: inline-block;
+}
+.malkiel-vadna-11-passage-de {
+  height: 49.09%;
+  width: 22.66%;
+  top: 50.91%;
+  right: 0;
+  bottom: 0;
+  left: 77.34%;
+}
+.bneficiaire,
+.donateur-b {
+  height: 19.64%;
+  top: 5.09%;
+  bottom: 75.27%;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.bneficiaire {
+  width: 17.43%;
+  right: 80.17%;
+  left: 2.4%;
+  text-align: center;
+}
+.donateur-b {
+  width: 14.19%;
+  right: 6.22%;
+  left: 79.58%;
+}
+.beneficiaire-div {
+  position: absolute;
+  height: 7.26%;
+  width: 67.5%;
+  top: 44.64%;
+  right: 25.38%;
+  bottom: 48.1%;
+  left: 7.12%;
+}
+.rectangle-div {
+  position: absolute;
+  top: 25.24px;
+  left: 0;
+  background-color: var(--color-indigo);
+  width: 595px;
+  height: 40px;
+}
+.vector-icon7 {
+  height: 2.36%;
+  width: 100%;
+  top: 7.1%;
+  right: 0;
+  bottom: 90.54%;
+  left: 0;
+}
+.vector-icon10,
+.vector-icon11,
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon8 {
+  height: 16.56%;
+  width: 1.82%;
+  top: 0;
+  right: 95.24%;
+  bottom: 83.44%;
+  left: 2.94%;
+  object-fit: cover;
+}
+.vector-icon10,
+.vector-icon11,
+.vector-icon9 {
+  height: 27.44%;
+  width: 6.07%;
+  top: 55.56%;
+  right: 87.65%;
+  bottom: 17%;
+  left: 6.28%;
+}
+.vector-icon10,
+.vector-icon11 {
+  height: 20.21%;
+  width: 4.63%;
+  top: 59.96%;
+  right: 88.34%;
+  bottom: 19.83%;
+  left: 7.03%;
+}
+.vector-icon11 {
+  height: 8.28%;
+  width: 3.09%;
+  top: 66.09%;
+  right: 88.62%;
+  bottom: 25.63%;
+  left: 8.29%;
+}
+.le-document-cerfa-ci-dessous-e {
+  position: absolute;
+  height: 10.73%;
+  width: 35.97%;
+  top: 18.76%;
+  right: 32.27%;
+  bottom: 70.51%;
+  left: 31.76%;
+  font-size: 6px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.n-dordre-de-reu {
+  top: 32.24px;
+  left: 451px;
+  font-weight: 600;
+  text-align: left;
+}
+.articles-200-et-238-bis-5-du-c,
+.div,
+.dons-b,
+.n-dordre-de-reu {
+  position: absolute;
+  letter-spacing: 0.01em;
+  display: inline-block;
+}
+.div {
+  top: 45.54px;
+  left: 471.45px;
+  font-weight: 600;
+  text-align: right;
+}
+.articles-200-et-238-bis-5-du-c,
+.dons-b {
+  top: 32.24px;
+  left: 271.56px;
+  font-size: 12.1px;
+}
+.articles-200-et-238-bis-5-du-c {
+  top: 47.85px;
+  left: 204px;
+  font-size: 6.66px;
+  font-weight: 500;
+}
+.milieu-div {
+  position: absolute;
+  top: 274.76px;
+  left: 0;
+  width: 595px;
+  height: 65.24px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
 }
 .malkiel-vadna-11-passage-de-f {
   position: absolute;
-  /* top: 15%; */
-  left: 65%;
-  font-size: var(--font-size-xl);
+  height: 30%;
+  width: 28.07%;
+  top: 29.38%;
+  right: 0;
+  bottom: 40.63%;
+  left: 71.93%;
   letter-spacing: 0.01em;
-  line-height: 38.19px;
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
-}
-.association-dintrt-gnral {
-  position: absolute;
-  top: 1143.1px;
-  left: 226.71px;
-  font-size: 19.1px;
-  letter-spacing: 0.01em;
-  line-height: 28.37px;
-  font-weight: 600;
-  display: flex;
-  align-items: flex-end;
-  width: 471.97px;
-  height: 58.38px;
-}
-.rectangle-div1 {
-  position: absolute;
-  top: calc(45% - -354.11px);
-  background-color: var(--color-gray-100);
-  width: 100%;
-  height: 1.36px;
-}
-.rectangle-div2 {
-  position: absolute;
-  /* top: 31%; */
-  left: -0.27px;
-  border: 2.7px dashed var(--color-gray-200);
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.73px;
-}
-.numraire-div {
-  position: absolute;
-  height: 95.3%;
-  width: 70.65%;
-  top: 1.27%;
-  right: 0;
-  bottom: 3.43%;
-  left: 29.35%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-div3 {
-  position: absolute;
-  height: 100%;
-  width: 17.36%;
-  top: 0;
-  right: 82.64%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 1.9px solid var(--color-gray-400);
-  box-sizing: border-box;
-}
-.group-div {
-  position: relative;
-  width: 157.11px;
-  height: 27.28px;
-  flex-shrink: 0;
-}
-.chque-ou-virement {
-  position: absolute;
-  height: 95.3%;
-  width: 82.34%;
-  top: 1.27%;
-  right: 0;
-  bottom: 3.43%;
-  left: 17.66%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-div4 {
-  position: absolute;
-  height: 100%;
-  width: 10.45%;
-  top: 0;
-  right: 89.55%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 1.9px solid var(--color-gray-400);
-  box-sizing: border-box;
-}
-.group-div1 {
-  position: relative;
-  width: 261.11px;
-  height: 27.28px;
-  flex-shrink: 0;
-}
-.carte-bancaire-div {
-  position: absolute;
-  height: 95.3%;
-  width: 77.41%;
-  top: 1.27%;
-  right: 0;
-  bottom: 3.43%;
-  left: 22.59%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-div5 {
-  position: absolute;
-  height: 100%;
-  width: 13.37%;
-  top: 0;
-  right: 86.63%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 1.9px solid var(--color-gray-400);
-  box-sizing: border-box;
-}
-.group-div2 {
-  position: relative;
-  width: 204.11px;
-  height: 27.28px;
-  flex-shrink: 0;
-}
-.autre-div {
-  position: absolute;
-  height: 95.3%;
-  width: 56.13%;
-  top: 1.27%;
-  right: 0;
-  bottom: 3.43%;
-  left: 43.87%;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.rectangle-input {
-  cursor: pointer;
-  position: absolute;
-  height: 100%;
-  width: 25.96%;
-  top: 0;
-  right: 74.04%;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-sm);
-  border: 1.9px solid var(--color-gray-400);
-  box-sizing: border-box;
-}
-.group-div3 {
-  position: relative;
-  width: 105.11px;
-  height: 27.28px;
-  flex-shrink: 0;
-}
-.frame-div1 {
-  position: absolute;
-  /* top: 1597.4px; */
-  left: 104.49px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 177.33px;
-  margin-top:45%;
-}
-.sauf-dans-le-cadre-du-compte-d {
-  position: absolute;
-  top: 1725.63px;
-  left: 150.59px;
-  font-size: 13.64px;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  width: 161.23px;
-}
-.abonnement-au-journal-adama,
-.div {
-  position: relative;
-  letter-spacing: 0.01em;
-  font-weight: 500;
-  display: inline-block;
-}
-.abonnement-au-journal-adama {
-  display: none;
-}
-.frame-div2 {
-  position: absolute;
-/*  top: 76.93px;*/
-  right: 103.12px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: 5.46px;
-  text-align: right;
-  color: var(--color-gray-200);
-}
-.vector-icon4 {
-  position: absolute;
-  top: 1883.91px;
-  left: 466.1px;
-  width: 570.82px;
-  height: 188.01px;
-}
-.rectangle-div6 {
-  top: -6.37px;
-  left: 6.37px;
-  background-color: var(--color-gray-400);
-  width: 1.36px;
-  transform: rotate(-45deg);
-}
-.group-div4,
-.rectangle-div6,
-.rectangle-div8 {
-  position: absolute;
-  height: 19.37px;
-  transform-origin: 0 0;
-}
-.rectangle-div8 {
-  top: 7.33px;
-  left: 7.33px;
-  background-color: var(--color-gray-400);
-  width: 1.36px;
-  transform: rotate(-135deg);
-}
-.group-div4 {
-  top: 1708.14px;
-  left: 104.49px;
-  width: 19.37px;
-  transform: rotate(-45deg);
 }
 .blank-line-span {
   font-weight: 500;
@@ -456,38 +398,118 @@ body {
 .blank-line-p3 {
   margin-block-start: 0;
   margin-block-end: 0;
-  color: var(--color-gray-300);
-}
-.chere-malkiel-vadna-le-kkl,
-.div1 {
-  position: absolute;
-  letter-spacing: 0.01em;
+  color: #7b8a71;
 }
 .chere-malkiel-vadna-le-kkl {
-  left: 99.03px;
+  position: absolute;
+  height: 100%;
+  width: 45.83%;
+  top: 0;
+  right: 54.17%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
   display: flex;
   align-items: center;
-  width: 709.4px;
+}
+.contenue-div {
+  position: absolute;
+  height: 19%;
+  width: 76.64%;
+  top: 10.21%;
+  right: 16.97%;
+  bottom: 70.78%;
+  left: 6.39%;
+  font-size: var(--font-size-lg);
+}
+.cerfa-div1,
+.div1 {
+  position: absolute;
+  height: 68.57%;
+  width: 91.67%;
+  top: 0;
+  right: 5.56%;
+  bottom: 31.43%;
+  left: 2.78%;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
 }
 .div1 {
-  /* top: 32%; */
-  left: 5%;
-  font-size: var(--font-size-xl);
-  line-height: 28.37px;
-  font-family: var(--font-sf-pro);
-  display: inline-block;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-  margin-top:1%;
+  height: 28.57%;
+  width: 100%;
+  top: 71.43%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 8.5px;
+  font-weight: 500;
+  text-align: center;
 }
-.cerfa-malki-div {
+.cerfa-div,
+.logo-icon {
+  position: absolute;
+  top: 0;
+}
+.cerfa-div {
+  height: 74.47%;
+  width: 13.93%;
+  right: 86.07%;
+  bottom: 25.53%;
+  left: 0;
+  text-align: left;
+  font-size: 20px;
+  color: var(--color-indigo);
+}
+.logo-icon {
+  height: 100%;
+  width: 7.35%;
+  right: 45.84%;
+  bottom: 0;
+  left: 46.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div2,
+.paris-le-02082022 {
+  position: absolute;
+  height: 21.28%;
+  width: 3.48%;
+  top: 0;
+  right: 0;
+  bottom: 78.72%;
+  left: 96.52%;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.paris-le-02082022 {
+  width: 14.7%;
+  top: 25.53%;
+  bottom: 53.19%;
+  left: 85.3%;
+}
+.headers-div {
+  position: absolute;
+  height: 5.58%;
+  width: 86.89%;
+  top: 3.68%;
+  right: 6.89%;
+  bottom: 90.74%;
+  left: 6.22%;
+  text-align: right;
+  color: var(--color-gray-100);
+}
+.a4-1 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 2656px;
+  height: 842px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
-  color: var(--color-gray-400);
+  color: var(--color-gray-200);
   font-family: var(--font-inter);
 }
