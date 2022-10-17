@@ -29,4 +29,7 @@ page {
 page[size="A4"] {  
   width: 21cm;
   height: 29.7cm; 
+  background-image: url(../Cerfa_Malki.png);
+  /* background-repeat: no-repeat, no-repeat; */
+  background-size: 100%
 }
