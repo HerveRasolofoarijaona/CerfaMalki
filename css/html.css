@@ -46,19 +46,19 @@
 }
 
 .vector-icon {
-  position: absolute;
-  top: -27.1px;
-  left: 47%;
   width: 49.3px;
-  height: 118.95px;
+  height: 65.9px;
+  position: absolute;
+  top: 0.9px;
+  left: 47%;
 }
 
 .vector-icon1 {
-  position: absolute;
-  top: 156.9px;
-  left: 9px;
   width: 49.3px;
-  height: 118.95px;
+  height: 68.9px;
+  position: absolute;
+  top: 175.9px;
+  left: 9px;
 }
 
 .Content-part{
@@ -153,11 +153,11 @@
   width: 87%;
 }
 .vector-icon7 {
-  position: absolute;
-  top: 245px;
-  left: calc(50% - 282.17px);
-  width: 432.9px;
+  width: 145.9px;
   height: 102px;
+  position: absolute;
+  top: 239px;
+  left: 225px;
 }
 
 .dr-robert-zbili-prsident-du {
