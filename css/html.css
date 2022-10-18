@@ -45,10 +45,18 @@
   left: 1%;
 }
 
-.vector-icon, .vector-icon1 {
+.vector-icon {
   position: absolute;
   top: -27.1px;
   left: 47%;
+  width: 49.3px;
+  height: 118.95px;
+}
+
+.vector-icon1 {
+  position: absolute;
+  top: 156.9px;
+  left: 9px;
   width: 49.3px;
   height: 118.95px;
 }
@@ -76,40 +84,110 @@
     /* background-color: green; */
     height: 124px;
     position: relative;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     top: 3.5%;
     /* left: 6%; */
     /* width: 87%; */
 }
-.centre{
-  position: absolute;
-  top: 9px;
-  left: 244px;
-}
 
-.droite_content{
-  margin-left: 478px;
-  margin-top: 1%;
-  position: absolute;
-  background-color: red;
-}
 
 .Corps-client{
-  background-color: purple;
+  /* background-color: purple; */
   height: 297px;
   position: relative;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   top: 3.5%;
   left: 6%;
   width: 87%;
+}
+.rectangle-div10 {
+  position: absolute;
+  top: 41px;
+  left: 8.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-indigo);
+  width: 117.7px;
+  height: 24px;
+  margin-top: 1%;
+}
+
+.rectangle-div11 {
+  position: absolute;
+  top: 41px;
+  left: 421.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-indigo);
+  width: 96.7px;
+  height: 24px;
+  margin-top: 1%;
+}
+.bneficiaire {
+  position: absolute;
+  font-size: 14.5px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  color: var(--color-white);
+  margin-top: 4.5%;
+  left: 6%;
+  top: -1px;
+}
+
+.donateur-b {
+  position: absolute;
+  font-size: 14.5px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  color: var(--color-white);
+  margin-top: 4.5%;
+  left: 9%;
+  top: -1px;
 }
 
 .Bas-client{
-  background-color: pink;
+  /* background-color: pink; */
   height: 372px;
   position: relative;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   top: 3.5%;
   left: 6%;
   width: 87%;
 }
+.vector-icon7 {
+  position: absolute;
+  top: 245px;
+  left: calc(50% - 282.17px);
+  width: 432.9px;
+  height: 102px;
+}
+
+.dr-robert-zbili-prsident-du {
+  position: absolute;
+  top: 254.3px;
+  left: 345px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 11.5px;
+  letter-spacing: 0.01em;
+}
+.le-bnficiaire-reconnat1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.date-de-paiement1 {
+  margin: 0;
+}
+.numraire-div-2{
+  position: absolute;
+  height: 102.3%;
+  width: 70.65%;
+  top: 126.2%;
+  right: 0;
+  bottom: 3.43%;
+  left: 24%;
+  letter-spacing: 0.09em;
+  /* font-weight: 500; */
+  display: inline-block;
+  font-size: 6px;
+  line-height: 1.5em;
+}
+
