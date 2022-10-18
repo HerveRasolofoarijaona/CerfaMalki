@@ -2,7 +2,7 @@
     /* background-color: greenyellow; */
     height: 290px;
     position: relative;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     top: 3.5%;
     left: 6%;
     width: 87%;
@@ -54,13 +54,26 @@
 }
 
 .Content-part{
-  background-color: rgb(59, 86, 19);
   height: 223px;
   position: relative;
 }
+.droite{
+  /* background-color: rgb(22, 141, 206); */
+  height: 83px;
+  position: absolute;
+  width: 190px;
+  left: 438px;
+  top: 63px;
+}
+.gauche{
+  /* background-color: rgb(153, 250, 7); */
+  height: 223px;
+  position: absolute;
+  width: 306px;
+}
 
 .Milieu-client{
-    background-color: green;
+    /* background-color: green; */
     height: 124px;
     position: relative;
     opacity: 0.5;
@@ -68,6 +81,19 @@
     /* left: 6%; */
     /* width: 87%; */
 }
+.centre{
+  position: absolute;
+  top: 9px;
+  left: 244px;
+}
+
+.droite_content{
+  margin-left: 478px;
+  margin-top: 1%;
+  position: absolute;
+  background-color: red;
+}
+
 .Corps-client{
   background-color: purple;
   height: 297px;

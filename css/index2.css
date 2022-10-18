@@ -27,12 +27,12 @@ body {
   background-color: var(--color-green);
 }
 .rectangle-div {
-  /* position: absolute; */
-  /* top: 34%; */
+  position: relative;
   left: 0;
   background-color: var(--color-indigo);
   width: 100%;
-  height: 102.3px;
+  height: 49.9px;
+  top: 74px;
 }
 
 .n-dordre-de-reu {
@@ -68,21 +68,20 @@ body {
   text-align: center;
 }
 .dons-b {
-  /* top: 35%; */
-/*  left: 694.11px;*/
-    font-size: var(--font-size-xl);
+    font-size: 13px;
     margin-left: 8%;
     text-align: center;
 }
 .articles-200-et-238-bis-5-du-c {
   /* top: 37%; */
 /*  left: 535.6px;*/
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 500;
 }
 .le-bnficiaire-reconnat {
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-top: -0.3%;
 }
 .date-de-paiement {
   margin: 0;
@@ -113,25 +112,21 @@ body {
   display: inline-block;
 }
 .le-document-cerfa-ci-dessous-e {
-/*
-  top: 721.68px;
-  left: 459.19px;
-*/
-  left: 35%;
-  font-size: 16.37px;
+  top: 41px;
+  left: 242px;
+  font-size: 9px;
   color: var(--color-gray-200);
   text-align: center;
-  margin-top:1%;
+  margin-top: 1%;
+  letter-spacing: -0.01em;
 }
 .vector-icon2,
 .vector-icon3 {
   position: absolute;
-  /* top: 35.5%; */
-  left: 94.38px;
-  width: 91.14px;
-  height: 45.2px;
-  /* background-color: red; */
-  margin-top:1%;
+  left: 50.4px;
+  width: 47.1px;
+  height: 32.2px;
+  margin-top: 1%;
 }
 .vector-icon3 {
   top: 949.12px;
@@ -167,14 +162,14 @@ body {
 }
 .malkiel-vadna-11-passage-de-f {
   position: absolute;
-  /* top: 15%; */
-  left: 65%;
-  font-size: var(--font-size-xl);
+  font-size: 14.5px;
   letter-spacing: 0.01em;
   line-height: 38.19px;
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
+  left: 2px;
+  line-height: 1.5em;
 }
 .association-dintrt-gnral {
   position: absolute;
@@ -198,9 +193,9 @@ body {
 }
 .rectangle-div2 {
   position: absolute;
-  /* top: 31%; */
+  top: 34%;
   left: -0.27px;
-  border: 2.7px dashed var(--color-gray-200);
+  border: 1.7px dashed var(--color-gray-200);
   box-sizing: border-box;
   width: 100%;
   height: 2.73px;
@@ -416,12 +411,16 @@ body {
 .div1 {
   position: absolute;
   letter-spacing: 0.01em;
+  
 }
 .chere-malkiel-vadna-le-kkl {
-  left: 99.03px;
+  left: 5.0px;
   display: flex;
   align-items: center;
-  width: 709.4px;
+  width: 303.4px;
+  font-size: 11px;
+  top: 3%;
+  letter-spacing: 0.03em;
 }
 .div1 {
   /* top: 32%; */
@@ -432,7 +431,7 @@ body {
   display: inline-block;
   transform: rotate(-90deg);
   transform-origin: 0 0;
-  margin-top:1%;
+  margin-top: 6.4%;
 }
 .cerfa-malki-div {
   position: relative;
