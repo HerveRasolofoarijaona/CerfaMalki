@@ -201,9 +201,9 @@ body {
   top: 34%;
   left: -0.27px;
   border: 1px dashed var(--color-gray-200);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 100%;
-  height: 2.73px;
+  /* height: 2.73px; */
 }
 .numraire-div {
   position: absolute;
