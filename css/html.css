@@ -109,6 +109,7 @@
   width: 117.7px;
   height: 24px;
   margin-top: 1%;
+  border-radius: 5px;
 }
 
 .rectangle-div11 {
@@ -120,6 +121,7 @@
   width: 96.7px;
   height: 24px;
   margin-top: 1%;
+  border-radius: 5px;
 }
 .bneficiaire {
   position: absolute;
@@ -157,7 +159,7 @@
   height: 102px;
   position: absolute;
   top: 239px;
-  left: 225px;
+  left: 204px;
 }
 
 .dr-robert-zbili-prsident-du {
