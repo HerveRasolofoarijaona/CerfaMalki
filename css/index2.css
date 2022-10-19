@@ -99,7 +99,7 @@ body {
   width: 683.7px;
   font-size: 11.5px;
   height: 60px;
-  
+  color:var(--color-all-text);
 }
 .mode-de-versement {
   position: absolute;
@@ -107,6 +107,7 @@ body {
   font-weight: 600;
   display: inline-block;
   top: 65px;
+  color:var(--color-all-text);
 }
 .le-document-cerfa-ci-dessous-e{
   position: absolute;
@@ -118,7 +119,7 @@ body {
   top: 41px;
   left: 242px;
   font-size: 9px;
-  color: var(--color-gray-200);
+  color: #ADADAD;
   text-align: center;
   margin-top: 1%;
   letter-spacing: -0.01em;
@@ -150,6 +151,7 @@ body {
   letter-spacing: 0.01em;
   display: inline-block;
   font-size: 11.5px;
+  color:var(--color-all-text);
 }
 .france-span1 {
   font-weight: 600;
@@ -162,6 +164,7 @@ body {
   letter-spacing: 0.01em;
   display: inline-block;
   font-size: 11.5px;
+  color:var(--color-all-text);
 }
 .malkiel-vadna-11-passage-de-f {
   position: absolute;
@@ -173,6 +176,7 @@ body {
   display: inline-block;
   left: 2px;
   line-height: 1.4em;
+  color:var(--color-all-text);
 }
 .association-dintrt-gnral {
   position: absolute;
@@ -186,13 +190,14 @@ body {
   width: 471.97px;
   height: 58.38px;
   line-height: 1.4em;
+  color:var(--color-all-text);
 }
 .rectangle-div1 {
   position: absolute;
-  top: 297px;
-  background-color: var(--color-gray-100);
+  top: 418px;
+  background-color: #ECEAEA;
   width: 100%;
-  height: 1.36px;
+  height: 1px;
 }
 
 
@@ -200,7 +205,7 @@ body {
   position: absolute;
   top: 34%;
   left: -0.27px;
-  border: 1px dashed var(--color-gray-200);
+  border: 1px dashed #ADADAD;
   /* box-sizing: border-box; */
   width: 100%;
   /* height: 2.73px; */
@@ -340,6 +345,7 @@ body {
   gap: 177.33px;
   margin-top: 45%;
   font-size: 11px;
+  color:var(--color-all-text);
 }
 .sauf-dans-le-cadre-du-compte-d {
   position: absolute;
@@ -431,6 +437,7 @@ body {
   top: 3%;
   letter-spacing: 0.033em;
   line-height: 1.27em;
+  color:var(--color-all-text);
 }
 .div1 {
   /* top: 32%; */
