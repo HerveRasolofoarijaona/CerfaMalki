@@ -1,0 +1,729 @@
+/* Print Styles */
+/* @media print { */
+:root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-base: 11px;
+    --font-size-lg: 10px;
+    --font-size-xl: 10.99px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #adadad;
+    --color-gray-200: #465071;
+    --color-indigo: #0a7aff;
+    --color-all-text:#465071;
+  }
+
+  @media print {
+    @page { 
+      margin: 0; 
+      size: auto;
+      size: portrait;
+      display: block;
+    }
+    .Haut-client,.Milieu-client,.Corps-client, .Bas-client{
+      -webkit-print-color-adjust:exact !important;
+      print-color-adjust:exact !important;
+    }
+  }
+  
+
+body {
+    background: rgb(204,204,204); 
+    margin: 0;
+  }
+  img{
+    position:absolute;
+    width: 1653px;
+    height: 2319px;
+    /* 1653x2339 */
+  }
+
+  page {
+    background: white;
+    display: block;
+    margin: 0;
+    
+  }
+  
+  page[size="A4"] {  
+    width: auto;
+    height: 2700px;
+    /* background-image: url(../Cerfa_Malki.png); */
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    font-family: var(--font-inter);
+    text-align: left;
+    /* margin-top: 17px; */
+  }
+/* html.csss */
+.Haut-client{
+    position: relative;
+    top: 87px;
+    left: 6%;
+    width: 1779px; /* 1473px; */
+    
+    height: 713.75px;
+
+}
+.logo-switcher{
+  /* background-color: pink; */
+  height: 133px;
+  position: relative;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 82.6px;
+  color: var(--color-indigo);
+  position: absolute;
+  left: 0.6%;
+}
+.cerfa-div {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  display: inline-block;
+  left: 0.5%;
+  top: 1%;
+}
+.numero-transact {
+  position: relative;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.004em;
+  top: 8px;
+  left: 1%;
+}
+
+.vector-icon {
+  width: 105.3px;
+  height: 130.9px;
+  position: absolute;
+  top: 0.9px;
+  left: 47%;
+}
+
+.vector-icon1 {
+  width: 110.3px;
+  height: 174.9px;
+  position: absolute;
+  top: 413.9px;
+  left: 18px;
+}
+
+.Content-part{
+  /* background-color:pink; */
+  height: 482px; /* 482px; + 98.75 */
+  position: relative;
+  top:98.75px;
+  
+}
+.droite{
+  /* background-color: rgb(22, 141, 206); */
+  height: 163px;
+  position: absolute;
+  width: 710px;
+  left: 917px;
+  top: 144px;
+}
+.gauche{
+  /* background-color: rgb(153, 250, 7); */
+  height: 482px;
+  position: absolute;
+  width: 645px;
+}
+
+.Milieu-client{
+    height: 124px;
+    position: relative;
+    top: 111px;
+    /* opacity: 0.5; */
+}
+
+
+.Corps-client{
+  height: 618px;
+  position: relative;
+  /* opacity: 0.5; */
+  top: 322px;
+  left: 6%;
+  width: 87%;
+}
+.rectangle-div10 {
+  position: absolute;
+  top: 83px;
+  left: 22.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-indigo);
+  width: 345.7px;
+  height: 71px;
+  margin-top: 1%;
+  border-radius: 25px;
+}
+
+.rectangle-div11 {
+  position: absolute;
+  top: 85px;
+  left: 1129.8px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-indigo);
+  width: 345.7px;
+  height: 71px;
+  margin-top: 1%;
+  border-radius: 25px;
+}
+.bneficiaire {
+  position: absolute;
+  font-size: 38.5px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  color: var(--color-white);
+  margin-top: 4.5%;
+  left: 40px;
+  top: -2px;
+}
+
+.donateur-b {
+  position: absolute;
+  font-size: 38.5px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  color: var(--color-white);
+  margin-top: 4.5%;
+  left: 40px;
+  top: -2px;
+}
+
+.Bas-client{
+  /* background-color: pink; */
+  height: 372px;
+  position: relative;
+  /* opacity: 0.5; */
+  top: 382px;
+  left: 6%;
+  width: 87%;
+}
+.vector-icon7 {
+  width: 745.9px;
+  height: 275px;
+  position: absolute;
+  top: 550px;
+  left: 254px;
+
+}
+
+.dr-robert-zbili-prsident-du {
+  position: absolute;
+  top: 603.3px;
+  left: 823px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 29.5px;
+  letter-spacing: 0.03em;
+  color: var(--color-all-text);
+}
+.le-bnficiaire-reconnat1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.date-de-paiement1 {
+  margin: 0;
+}
+.numraire-div-2{
+  position: absolute;
+  top: 314.2%;
+  right: 0;
+  bottom: 3.43%;
+  letter-spacing: 0.09em;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5em;
+  left: 99px;
+}
+
+/* index2.css */
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .bas-div,
+  .haut-div,
+  .milieu-div {
+    position: absolute;
+    height: 122.18%;
+    width: 366.75%;
+    top: 244.35%;
+    right: -266.75%;
+    bottom: -266.54%;
+    left: 0;
+    background-color: var(--color-gray-500);
+    display: none;
+  }
+  .haut-div,
+  .milieu-div {
+    top: 0;
+    bottom: -22.18%;
+    background-color: var(--color-red);
+  }
+  .milieu-div {
+    top: 122.15%;
+    bottom: -144.34%;
+    background-color: var(--color-green);
+  }
+  .rectangle-div {
+    position: relative;
+    left: 0;
+    background-color: var(--color-indigo);
+    width: 100%;
+    height: 143px;
+    top: 171px;
+  }
+  
+  .n-dordre-de-reu {
+    top: 21px;
+    left: 1479px;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+  }
+  .articles-200-et-238-bis-5-du-c,
+  .button1,
+  .dons-b,
+  .n-dordre-de-reu {
+    letter-spacing: 0.01em;
+    color: white;
+  }
+  .button1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    position: absolute;
+    top: 64px;
+    left: 1553px;
+  }
+  .articles-200-et-238-bis-5-du-c,
+  .dons-b {
+    text-align: center;
+  }
+  .dons-b {
+    font-size: 40.5px;
+    left: 909px;
+    text-align: center;
+    position: absolute;
+    top: 27px;
+  }
+  .articles-200-et-238-bis-5-du-c {
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 77px;
+    left: 634px;
+    letter-spacing: 0.04em;
+  }
+
+  .le-bnficiaire-reconnat {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: -0.3%;
+  }
+  .date-de-paiement {
+    margin: 0;
+  }
+  .le-bnficiaire-reconnat-container {
+    /* line-break: anywhere; */
+    width: 100%;
+  }
+  .le-bnficiaire-reconnat-avoi {
+    position: absolute;
+    top: 164px;
+    left: 14.5px;
+    letter-spacing: 0.020em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 1464.7px;
+    font-size: 32px;
+    height: 60px;
+    color: var(--color-all-text);
+  }
+  .mode-de-versement {
+    position: absolute;
+    letter-spacing: 0.026em;
+    font-weight: 600;
+    display: inline-block;
+    top: 87px;
+    color: var(--color-all-text);
+  }
+
+  .le-document-cerfa-ci-dessous-e {
+    top: 83px;
+    left: 554px;
+    font-size: 24px;
+    color: rgb(173,173,173);
+    text-align: center;
+    margin-top: 1%;
+    position: absolute;
+    letter-spacing: 0.022em;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .vector-icon2,
+  .vector-icon3 {
+    position: absolute;
+    left: 105.4px;
+    width: 152.1px;
+    height: 79.2px;
+    margin-top: 35px;
+      
+  }
+  .vector-icon3 {
+    top: 949.12px;
+    left: 106.94px;
+    width: 964.39px;
+    height: 47.47px;
+  }
+  .rue-du-4-septembre {
+    font-weight: 600;
+  }
+  .span {
+    font-family: var(--font-inter);
+  }
+  .keren-kayemeth-leisral-11-rue {
+    position: absolute;
+    top: 237.2px;
+    left: 28px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-size: 30px;
+    color: var(--color-all-text);
+  }
+  .france-span1 {
+    font-weight: 600;
+    font-family: var(--font-inter);
+  }
+  .malkiel-vadna-11-passage-de {
+    position: absolute;
+    top: 237.2px;
+    left: 1137px;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    font-size: 30px;
+    color: var(--color-all-text);
+  }
+  .malkiel-vadna-11-passage-de-f {
+    position: absolute;
+    font-size: 39.5px;
+    letter-spacing: 0.03em;
+    line-height: 38.19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    left: 191px;
+    line-height: 1.43em;
+    color: var(--color-all-text);
+  }
+  .association-dintrt-gnral {
+    position: absolute;
+    top: 521px;
+    left: 157.7px;
+    font-size: 22.1px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    width: 578px;
+    height: 56.4px;
+    line-height: 1.4em;
+    color: var(--color-all-text);
+  }
+  .rectangle-div1{
+    position: absolute;
+    top: 1010px;
+    background-color: #ECEAEA;
+    width: 100%;
+    height: 5px;
+  }
+  
+  
+  .rectangle-div2 {
+    position: absolute;
+    top: 88px;
+    left: -0.27px;
+    border: 3px dashed #ADADAD;
+    /* box-sizing: border-box; */
+    width: 100%;
+    /* height: 2.73px; */
+  }
+  .numraire-div {
+    position: absolute;
+    top: 16.2%;
+    right: 0;
+    bottom: 3.43%;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .rectangle-div3 {
+    /* position: absolute;
+    height: 211%;
+    width: 19.4%; 
+    top: 0;
+    right: 82.64%;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    border: 1.9px solid var(--color-gray-400);
+    box-sizing: border-box; */
+  }
+  .group-div {
+    position: relative;
+    /* width: 351.1px;
+    height: 14.3px; */
+    flex-shrink: 0;
+  }
+  .chque-ou-virement {
+    position: absolute;
+    right: 0;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .rectangle-div4 {
+    /* position: absolute; */
+    /* height: 220%;
+    width: 9.4%;
+    top: 0;
+    right: 89.55%;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    border: 1.9px solid var(--color-gray-400);
+    box-sizing: border-box; */
+  }
+  .group-div1 {
+    position: relative;
+    /* width: 503.1px;
+    height: 13.3px;
+    flex-shrink: 0;
+    left: -147px; */
+  }
+  .carte-bancaire-div {
+    position: absolute;
+    top: 9.3%;
+    right: 0;
+    bottom: 3.43%;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .rectangle-div5 {
+    /* position: absolute;
+    height: 100%;
+    width: 13.37%;
+    top: 0;
+    right: 86.63%;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    border: 1.9px solid var(--color-gray-400);
+    box-sizing: border-box; */
+  }
+  .group-div2 {
+    position: relative;
+    /* width: 383.1px;
+    height: 31.3px;
+    flex-shrink: 0;
+    left: -350px; */
+  
+  }
+  .autre-div {
+    position: absolute;
+    top: 5.3%;
+    right: 0;
+    bottom: 3.43%;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .rectangle-input {
+    /* cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 25.96%;
+    top: 0;
+    right: 74.04%;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    border: 1.9px solid var(--color-gray-400);
+    box-sizing: border-box; */
+  }
+  .group-div3 {
+    position: relative;
+    /* height: 33.3px;
+    flex-shrink: 0;
+    left: -476px; */
+  }
+  .frame-div1 {
+    position: absolute;
+    top: 334.4px;
+    left: 2.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* gap: 177.33px; */
+    color: var(--color-all-text);
+  }
+  .sauf-dans-le-cadre-du-compte-d {
+    position: absolute;
+    top: 1725.63px;
+    left: 150.59px;
+    font-size: 13.64px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 161.23px;
+  }
+  .abonnement-au-journal-adama,
+  .div {
+    position: relative;
+    letter-spacing: 0.004em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .abonnement-au-journal-adama {
+    display: none;
+  }
+  .frame-div2 {
+    position: absolute;
+    right: 1.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 3.5px;
+    text-align: right;
+    color: var(--color-gray-200);
+    font-size: 30.7px;
+  }
+  .vector-icon4 {
+    position: absolute;
+    top: 1883.91px;
+    left: 466.1px;
+    width: 570.82px;
+    height: 188.01px;
+  }
+  .rectangle-div6 {
+    top: -6.37px;
+    left: 6.37px;
+    background-color: var(--color-gray-400);
+    width: 1.36px;
+    transform: rotate(-45deg);
+  }
+  .group-div4,
+  .rectangle-div6,
+  .rectangle-div8 {
+    position: absolute;
+    height: 19.37px;
+    transform-origin: 0 0;
+  }
+  .rectangle-div8 {
+    top: 7.33px;
+    left: 7.33px;
+    background-color: var(--color-gray-400);
+    width: 1.36px;
+    transform: rotate(-135deg);
+  }
+  .group-div4 {
+    top: 1708.14px;
+    left: 104.49px;
+    width: 19.37px;
+    transform: rotate(-45deg);
+  }
+  .blank-line-span {
+    font-weight: 500;
+  }
+  .blank-line-p3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: var(--color-gray-300);
+  }
+  .chere-malkiel-vadna-le-kkl,
+  .div1 {
+    position: absolute;
+    letter-spacing: 0.01em;
+    
+  }
+  .chere-malkiel-vadna-le-kkl {
+    left: 9.0px;
+    display: flex;
+    align-items: center;
+    width: 706px;
+    font-size: 25px;
+    top: 22px;
+    letter-spacing: 0.042em;
+    line-height: 1.29em;
+    color: var(--color-all-text);
+  }
+  .div1 {
+    left: 5%;
+    font-size: 31px;
+    line-height: 28.37px;
+    font-family: var(--font-sf-pro);
+    display: inline-block;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    margin-top: 111px;
+  }
+  .cerfa-malki-div {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 2656px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-400);
+    font-family: var(--font-inter);
+  }
+
+.numraire-div,.chque-ou-virement,.carte-bancaire-div,.autre-div{
+  font-size: 27px;
+  width: 70.65%;
+  height: 362.3%;
+  left: 21%;
+
+}
+
+.group-div,.group-div1,.group-div2,.group-div3{
+    width: 468.1px;
+    height: 13.3px;
+    flex-shrink: 0;
+}
+
+.rectangle-div3,.rectangle-div4,.rectangle-div5,.rectangle-input{
+  position: absolute;
+  border: 1.9px solid var(--color-gray-400);
+  box-sizing: border-box;
+  border-radius: var(--br-sm);
+  left: 0;
+  height: 211%;
+  width: 19.4%; 
+  cursor: pointer;
+}
